@@ -554,7 +554,13 @@
 
 .footer__top{
     background-color: #FFFFFF;
-    min-height: 120px;
+    height: 120px;
+}
+
+@media (max-width: 950px){
+    .footer__top{
+        min-height: 120px;
+    }
 }
 
 .footer__top-contacts{
